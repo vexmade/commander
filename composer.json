@@ -1,6 +1,6 @@
 {
-	"name": "jeffr/commander",
-	"description": "Command Bus Setup",
+	"name": "vexstudios/commander",
+	"description": "Basic Command Bus Setup",
 	"license": "MIT",
 	"authors": [
 		{
