@@ -1,0 +1,26 @@
+{
+	"name": "jeffr/commander",
+	"description": "Command Bus Setup",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jeff Rupert",
+			"email": "rupert.jeff@gmail.com"
+		}
+	],
+	"require": {
+		"illuminate/contracts": "~5.0",
+		"illuminate/support": "~5.0",
+		"illuminate/container": "~5.0@dev"
+	},
+	"require-dev": {
+		"behat/behat": "~3.0@dev",
+		"phpunit/phpunit": "~4.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"VexStudios\\Commander\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}

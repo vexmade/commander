@@ -1,0 +1,8 @@
+default:
+    autoload:
+        '': %paths.base%/tests/acceptance/contexts
+    suites:
+        test:
+            paths:
+                - %paths.base%/tests/acceptance
+
